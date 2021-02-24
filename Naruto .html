@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<Html long "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-aquiv="x-UA-compatible" content="IE=edge">
+    <meta name="Viewport" content="width=deveice-width, initial-scale=1.0">
+    <title>Calculadora de Animes</title>
+    <link href="Teste8.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1> Naruto tem 720 episódios </h1>
+    <h2> Quantos episódios faltam-te para acabar?</h2>
+    <h3> (No primeiro bloco digita o número de episódios que Naruto tem e no segundo coloca o numero de episódios que já assististe)</h3>
+    <input type="number" name="n1" id="n1"placeholder="Digita 720">
+    -
+    <input type="number" name="n2" id="n2">
+    <input type="button" name="subtrair" id="subtrair" value="Subtrair" onclick="Subtrai()">
+
+    <div id="res">Resultado</div>
+    <script>
+            function Subtrai(){
+                var num1 = Number(window.document.getElementById('n1').value)
+                var num2 = Number(window.document.getElementById('n2').value)
+                var s = window.document.getElementById('res')
+
+                var res = num1 - num2
+           s.innerText = `Através desta conta faltam-te ${res} episódios para acabar o melhor shonen da história`
+            }
+
+    </script>
+    <br>
+   
+
+    <img src="tenor - 2021-02-23T164241.968.gif" alt="Formação" height="300" Width="450">
+    
+    <p><a href="Pagina 2 .html"><input type="button" value="Voltar" onclick="infor()"></a></p>
+    </center>
+
+</body>
+</Html>

@@ -1,0 +1,25 @@
+body{
+	background-image: url(705602.png);
+	text-algigne: center;
+}
+h1{
+	font-family: Comic Sans MS;
+	color: Black;
+	font-size: 60px;
+}
+
+td{
+	font-family: Comic Sans MS;
+	color: black;
+	text-algigne: center;
+	border: 5px solid;
+
+}
+th{
+	font-size: 40px;
+	color: red;
+}
+h2{
+	font-family: Comic Sans MS;
+	font-size: 20px;
+}

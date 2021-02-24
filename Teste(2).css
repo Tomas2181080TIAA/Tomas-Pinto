@@ -1,0 +1,73 @@
+body{
+	background-image: url(748029.png);
+	text-algigne: center;
+}
+#menu{
+	display: block;
+	margin: auto;
+
+}
+
+#menu ul{
+	list-style:"Teste(2).css";
+	text-transform: uppercase;
+	font-size: 20px;
+	position: center;
+	
+
+}
+#menu li{
+	display: inline;
+	background-color: #151515;
+	padding: 15px;
+	margin: 8px;
+	
+
+}
+#menu li: hover{
+	background-color: Red;
+	text-decoration: underline;
+
+}
+a{
+	text-decoration: none;
+	color: #FA5858;
+}
+
+
+h1{
+	font-family: broadway;
+	color: #FA5858;
+	font-size: 70px
+	
+}
+h2{
+	font-family: broadway;
+	font-size: 20px
+
+}
+
+
+li{
+display: inline;
+Margin-left:5%;
+Margin-right:5%;
+font-size: 20px;
+}
+figcaption{
+
+text-align: center;
+}
+
+th{
+font-size: 20px;
+}
+
+td{
+font-size: 20px;
+font-family: "Arial", Times, serif;
+color: black;
+text-algigne: center;
+border: 5px solid;
+
+}

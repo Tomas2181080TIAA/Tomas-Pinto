@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<Html long "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-aquiv="x-UA-compatible" content="IE=edge">
+    <meta name="Viewport" content="width=deveice-width, initial-scale=1.0">
+    <link href="Teste inicial.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="Teste inicial.css">
+    <title> Pagina inicial </title>
+
+
+</head>
+
+
+<body>
+	<center>
+    <h1> Os Seus Dados:</h1>
+	
+	<img src="tenor - 2021-02-24T105418.062.gif" alt="Formação" height="200" Width="300">
+   <p>Qual é o teu nome? <input type="text" name="nome" id="nome"></p>
+    <p>O teu género? <input type="text" name="genero" id="genero"></p>
+    <p>Em que ano nasceste?<input type="number" name="idade" id="idade"></09:14 24/02/2021p>
+    <p><input type="button" value="Vamos ver" onclick="infor()"></p>
+    <div id=infor></div>
+        <script>
+             function infor(){
+            var nome = String(window.document.getElementById('nome').value)
+            var ano = Number(window.document.getElementById('idade').value)
+            var genero = String(window.document.getElementById('genero').value)
+            var r = window.document.getElementById('infor')
+
+            var data = new Date();
+            var anoatual = data.getFullYear();
+            var idade = anoatual - ano
+
+                if (genero == 'feminino'){
+                    r.innerText = `Okay ${nome}, podes me dizer em que país Nasceste?`
+                }
+                else if(genero == 'masculino'){
+                    r.innerText = `Okay ${nome}, podes me dizer em que país Nasceste?`
+                }
+            }
+    </script>
+	 
+	<p>Qual é o teu país de Nascimento?<input type="text" name="pais" id="pais"></p>
+    <input type="button" value="Verificar" onclick="nacional()">
+    <div id="nasc"></div>
+    <script>
+        function nacional(){
+            var p = window.document.getElementById('pais').value
+            var n = window.document.getElementById('nasc')
+
+            switch(p){
+
+                    case 'Portugal':
+                        n.innerText = `Bem-vindo ✌(ツ)_/¯`
+                        break
+                    case 'Espanha':
+                        n.innerText = `Bienvenido ✌(ツ)_/¯`
+                        break
+                    case 'França':
+                        n.innerText = `Bienvenue ✌(ツ)_/¯`
+                        break
+		    case '':
+                        n.innerText = `Welcome ✌(ツ)_/¯`
+                        break
+                    case 'Russia':
+                        n.innerText = `Добро пожаловать ✌(ツ)_/¯`
+                        break
+		    case 'China':
+                        n.innerText = `欢迎 ✌(ツ)_/¯`
+                        break
+		    case 'Brasil':
+                        n.innerText = `Bem-vindo ✌(ツ)_/¯`
+                        break
+		     case 'Japão':
+                        n.innerText = `ようこそ ✌(ツ)_/¯`
+                        break
+            }
+
+
+        }
+    </script>
+
+	<p><img src="tenor - 2021-02-24T100746.274.gif" alt="Formação" height="200" Width="300"></p>
+	<p><a href="Pagina 1 .html"><input type="button" value="Próximo" onclick="infor()"> </a> </p>
+	</center>
+
+
+</body>
+</Html>

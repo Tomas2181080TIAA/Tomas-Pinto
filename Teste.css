@@ -1,0 +1,48 @@
+body{
+	
+	background-image: url(744719.png);
+	
+
+}
+h1{
+	
+	font-family:Comic Sans MS;
+	color: red;
+	font-size: 70px
+
+
+}
+#segundop{
+	
+	font-weight: bolt;
+	color: White;
+	font-size: 45px;
+	background-color: red;
+	Margin-left: 680px;
+	Margin-right: 680px;
+}
+#legenda{
+	font-size: 30px;	
+
+
+}
+
+
+figcaption{
+	
+	font-size: 35px;
+	color: Gold;
+
+}
+figure{
+	border: thin grey solid;
+	Width:25%;
+
+}
+h2{
+	
+	font-family: broadway;
+	color: red;
+	font-size: 30px
+
+}
